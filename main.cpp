@@ -1,3 +1,4 @@
+//домашнє завдання за 10.03
 #include "main.h"
 #include <iostream>
 
