@@ -1,3 +1,4 @@
+//домашнє завдання за 06.03
 #include <iostream>
 #include "main.h"
 using namespace std;
