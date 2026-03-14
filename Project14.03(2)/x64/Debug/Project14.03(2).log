@@ -1,0 +1,128 @@
+﻿  main.cpp
+  source.cpp
+D:\repos\Project14.03(2)\source.cpp(12,12): error C2440: =: невозможно преобразовать "T **" в "T *"
+D:\repos\Project14.03(2)\source.cpp(12,12): error C2440:         with
+D:\repos\Project14.03(2)\source.cpp(12,12): error C2440:         [
+D:\repos\Project14.03(2)\source.cpp(12,12): error C2440:             T=int
+D:\repos\Project14.03(2)\source.cpp(12,12): error C2440:         ]
+      D:\repos\Project14.03(2)\source.cpp(12,12):
+      Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      D:\repos\Project14.03(2)\source.cpp(12,12):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\repos\Project14.03(2)\source.cpp(130,27):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "Matrix<int>"
+          D:\repos\Project14.03(2)\source.cpp(8,1):
+          во время компиляции функции-члена класс шаблон "Matrix<int>::Matrix(int,int)"
+  
+D:\repos\Project14.03(2)\source.cpp(14,19): error C2440: =: невозможно преобразовать "T *" в "T"
+D:\repos\Project14.03(2)\source.cpp(14,19): error C2440:         with
+D:\repos\Project14.03(2)\source.cpp(14,19): error C2440:         [
+D:\repos\Project14.03(2)\source.cpp(14,19): error C2440:             T=int
+D:\repos\Project14.03(2)\source.cpp(14,19): error C2440:         ]
+      D:\repos\Project14.03(2)\source.cpp(14,19):
+      Не существует контекста, в котором такое преобразование возможно
+  
+D:\repos\Project14.03(2)\source.cpp(21,9): error C2541: delete: нельзя удалять объекты, не являющиеся указателями
+      D:\repos\Project14.03(2)\source.cpp(21,9):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\repos\Project14.03(2)\source.cpp(19,1):
+          во время компиляции функции-члена класс шаблон "Matrix<int>::~Matrix(void)"
+  
+D:\repos\Project14.03(2)\source.cpp(32,29): error C2109: для индекса требуется массив или указатель
+      D:\repos\Project14.03(2)\source.cpp(32,29):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\repos\Project14.03(2)\source.cpp(27,1):
+          во время компиляции функции-члена класс шаблон "void Matrix<int>::input(void)"
+  
+D:\repos\Project14.03(2)\source.cpp(39,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+      D:\repos\Project14.03(2)\source.cpp(39,15):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\repos\Project14.03(2)\source.cpp(38,1):
+          во время компиляции функции-члена класс шаблон "void Matrix<int>::randomFill(void)"
+  
+D:\repos\Project14.03(2)\source.cpp(43,22): error C2109: для индекса требуется массив или указатель
+D:\repos\Project14.03(2)\source.cpp(52,30): error C2109: для индекса требуется массив или указатель
+      D:\repos\Project14.03(2)\source.cpp(52,30):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\repos\Project14.03(2)\source.cpp(48,1):
+          во время компиляции функции-члена класс шаблон "void Matrix<int>::print(void)"
+  
+D:\repos\Project14.03(2)\source.cpp(60,22): error C2109: для индекса требуется массив или указатель
+      D:\repos\Project14.03(2)\source.cpp(60,22):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\repos\Project14.03(2)\source.cpp(59,1):
+          во время компиляции функции-члена класс шаблон "T Matrix<T>::findMax(void)"
+          with
+          [
+              T=int
+          ]
+  
+D:\repos\Project14.03(2)\source.cpp(64,26): error C2109: для индекса требуется массив или указатель
+D:\repos\Project14.03(2)\source.cpp(65,32): error C2109: для индекса требуется массив или указатель
+D:\repos\Project14.03(2)\source.cpp(73,22): error C2109: для индекса требуется массив или указатель
+      D:\repos\Project14.03(2)\source.cpp(73,22):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\repos\Project14.03(2)\source.cpp(72,1):
+          во время компиляции функции-члена класс шаблон "T Matrix<T>::findMin(void)"
+          with
+          [
+              T=int
+          ]
+  
+D:\repos\Project14.03(2)\source.cpp(77,26): error C2109: для индекса требуется массив или указатель
+D:\repos\Project14.03(2)\source.cpp(78,32): error C2109: для индекса требуется массив или указатель
+D:\repos\Project14.03(2)\source.cpp(90,29): error C2109: для индекса требуется массив или указатель
+      D:\repos\Project14.03(2)\source.cpp(90,29):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\repos\Project14.03(2)\source.cpp(85,1):
+          во время компиляции функции-члена класс шаблон "Matrix<int> Matrix<int>::operator +(const Matrix<int> &)"
+  
+D:\repos\Project14.03(2)\source.cpp(90,42): error C2109: для индекса требуется массив или указатель
+D:\repos\Project14.03(2)\source.cpp(90,61): error C2109: для индекса требуется массив или указатель
+D:\repos\Project14.03(2)\source.cpp(102,29): error C2109: для индекса требуется массив или указатель
+      D:\repos\Project14.03(2)\source.cpp(102,29):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\repos\Project14.03(2)\source.cpp(97,1):
+          во время компиляции функции-члена класс шаблон "Matrix<int> Matrix<int>::operator -(const Matrix<int> &)"
+  
+D:\repos\Project14.03(2)\source.cpp(102,42): error C2109: для индекса требуется массив или указатель
+D:\repos\Project14.03(2)\source.cpp(102,61): error C2109: для индекса требуется массив или указатель
+D:\repos\Project14.03(2)\source.cpp(114,29): error C2109: для индекса требуется массив или указатель
+      D:\repos\Project14.03(2)\source.cpp(114,29):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\repos\Project14.03(2)\source.cpp(109,1):
+          во время компиляции функции-члена класс шаблон "Matrix<int> Matrix<int>::operator *(const Matrix<int> &)"
+  
+D:\repos\Project14.03(2)\source.cpp(114,42): error C2109: для индекса требуется массив или указатель
+D:\repos\Project14.03(2)\source.cpp(114,61): error C2109: для индекса требуется массив или указатель
+D:\repos\Project14.03(2)\source.cpp(126,29): error C2109: для индекса требуется массив или указатель
+      D:\repos\Project14.03(2)\source.cpp(126,29):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\repos\Project14.03(2)\source.cpp(121,1):
+          во время компиляции функции-члена класс шаблон "Matrix<int> Matrix<int>::operator /(const Matrix<int> &)"
+  
+D:\repos\Project14.03(2)\source.cpp(126,42): error C2109: для индекса требуется массив или указатель
+D:\repos\Project14.03(2)\source.cpp(126,61): error C2109: для индекса требуется массив или указатель
+D:\repos\Project14.03(2)\source.cpp(12,12): error C2440: =: невозможно преобразовать "T **" в "T *"
+D:\repos\Project14.03(2)\source.cpp(12,12): error C2440:         with
+D:\repos\Project14.03(2)\source.cpp(12,12): error C2440:         [
+D:\repos\Project14.03(2)\source.cpp(12,12): error C2440:             T=double
+D:\repos\Project14.03(2)\source.cpp(12,12): error C2440:         ]
+      D:\repos\Project14.03(2)\source.cpp(12,12):
+      Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+      D:\repos\Project14.03(2)\source.cpp(12,12):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\repos\Project14.03(2)\source.cpp(131,30):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "Matrix<double>"
+          D:\repos\Project14.03(2)\source.cpp(8,1):
+          во время компиляции функции-члена класс шаблон "Matrix<double>::Matrix(int,int)"
+  
+D:\repos\Project14.03(2)\source.cpp(14,19): error C2440: =: невозможно преобразовать "T *" в "T"
+D:\repos\Project14.03(2)\source.cpp(14,19): error C2440:         with
+D:\repos\Project14.03(2)\source.cpp(14,19): error C2440:         [
+D:\repos\Project14.03(2)\source.cpp(14,19): error C2440:             T=double
+D:\repos\Project14.03(2)\source.cpp(14,19): error C2440:         ]
+      D:\repos\Project14.03(2)\source.cpp(14,19):
+      Не существует контекста, в котором такое преобразование возможно
+  
+  Создание кода...
